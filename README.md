@@ -1,10 +1,12 @@
 # Catch the Dream 🌙
 
-**You have 30 seconds before your dream disappears. Make them count.**
+**Dreams disappear in 30 seconds. Start recording in 10.**
 
-Ever woken up from a vivid dream, reached for your phone, and by the time you opened the notes app... it's gone? That's because dreams evaporate within seconds of waking. Most dream journaling fails because of friction.
+You wake up from an incredible dream. You reach for your phone. By the time you open the notes app, half of it is gone. By the time you start typing, it's fragments. This happens every time.
 
-This Agent Skill captures dreams fast (voice or text dump), structures them automatically, and tracks recurring symbols over time. Stop losing your dreams to the snooze button.
+This Agent Skill is about one thing: **capturing dreams before they vanish.** No structure. No thinking. No friction. Just speak.
+
+**This is capture, not interpretation.** Dream analysis is a separate skill.
 
 Works with Claude Code, Codex CLI, OpenClaw, and any Agent Skills-compatible tool.
 
@@ -12,12 +14,14 @@ Works with Claude Code, Codex CLI, OpenClaw, and any Agent Skills-compatible too
 
 ## The Problem
 
-- Dreams fade within 30-60 seconds of waking
-- Traditional dream journals are too slow
-- Random notes don't reveal patterns
-- Symbol meanings are personal, not generic
+| Challenge | Reality |
+|-----------|---------|
+| Dreams fade in 30-60 seconds | You're racing the clock |
+| You're half-asleep | Cognitive ability is near zero |
+| You're lying down | Typing is awkward |
+| Dreams are chaotic | They don't fit linear notes |
 
-**This skill solves it:** Capture first, structure later, patterns emerge.
+**Solution:** Speak immediately. Structure later.
 
 ---
 
@@ -30,12 +34,12 @@ npx skills add git@github.com:mcltyl/catch-the-dream-skills.git
 
 ### Claude Code / Codex CLI
 ```bash
-git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.claude/skills/catch-the-dream
+git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.claude/skills/catch-the-dream-skills
 ```
 
 ### OpenClaw
 ```bash
-git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.openclaw/skills/catch-the-dream
+git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.openclaw/skills/catch-the-dream-skills
 ```
 
 ---
@@ -44,93 +48,60 @@ git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.openclaw/skill
 
 | Skill | Description |
 |-------|-------------|
-| [catch-the-dream](skills/catch-the-dream) | Voice/text → structured dream log with symbol tracking |
+| [catch-the-dream](skills/catch-the-dream) | Voice-first dream capture, zero friction |
 
 ---
 
 ## How It Works
 
 ```
-[Wake up] → [Voice note or text dump] → [AI structures it] → [Patterns emerge over time]
+[Wake up] → [Speak] → [Done]
 ```
 
-1. **Capture immediately** — Just speak or type everything you remember
-2. **AI extracts** — Setting, people, events, emotions, symbols
-3. **Track over time** — See what keeps appearing
-4. **Discover patterns** — Connect dreams to waking life
+That's it.
 
 ---
 
-## Example
+## The Only Rule
 
-**Voice note (messy, half-asleep):**
-```
-I was in my old high school but it was also my office... 
-my mom was there but she was my boss... running through 
-hallways that kept getting longer... then I was flying...
-```
+**Start recording within 10 seconds of waking.**
 
-**Structured output:**
-```markdown
-## Dream: The Endless Hallway
-**Date:** 2026-03-24  |  **Vividness:** 4 ⭐
-
-### Setting
-High school merged with office — identity/role confusion
-
-### People
-- Mom — appeared as boss (authority, expectations)
-
-### Events
-1. Hybrid school/office space
-2. Running late for unknown obligation  
-3. Hallways kept extending
-4. Transitioned to flying
-5. Felt relief, woke up
-
-### Symbols
-| Symbol | Possible Meaning |
-|--------|-----------------|
-| Old high school | Past pressures, formative experiences |
-| Mom as boss | Authority, approval seeking |
-| Endless hallways | Feeling stuck, moving goalposts |
-| Flying | Escape, freedom, rising above |
-```
+Everything else is optional.
 
 ---
 
-## Symbol Tracking
+## What Good Capture Looks Like
 
-Over weeks, see what keeps appearing:
+```
+"I was in some kind of office but the walls were glass... 
+there were fish swimming outside... my boss was there 
+but he had a different face... I was late for something... 
+then the floor turned into sand... someone called my name... 
+that's all I remember... wait, also a black dog... okay done."
+```
 
-| Symbol | Count | Pattern |
-|--------|-------|---------|
-| Water | 12 | Turbulent when stressed |
-| Flying | 8 | Usually positive, freedom |
-| Teeth falling | 3 | Before big presentations |
-| Old house | 6 | Nostalgia, childhood |
+**This is perfect.** Messy, fragmented, complete.
 
 ---
 
-## Quick Commands
+## Setup Tips
 
-```
-"Log this dream: [description]"
-"What symbols have I dreamed about most?"
-"Show dreams from last month"
-"Any patterns in my recent dreams?"
-```
+| Item | Purpose |
+|------|---------|
+| Phone on nightstand | Within arm's reach |
+| Post-it note | "RECORD YOUR DREAM" |
+| Voice command | "Hey Siri, new voice memo" |
 
 ---
 
-## Why This Works
+## What This Skill Does NOT Do
 
-| Traditional Journaling | This Skill |
-|------------------------|------------|
-| Open app, create note, think about structure | Just talk/type, done |
-| Manual symbol tracking | Automatic pattern detection |
-| Generic dream dictionaries | Your personal symbol meanings |
-| Isolated entries | Connected, searchable log |
+- ❌ Interpret dreams
+- ❌ Analyze symbols  
+- ❌ Find patterns
+- ❌ Tell you what dreams "mean"
+
+**Capture is capture. Analysis is a different skill.**
 
 ---
 
