@@ -25,17 +25,17 @@ Works with Claude Code, Codex CLI, OpenClaw, and any Agent Skills-compatible too
 
 ### npx skills
 ```bash
-npx skills add git@github.com:mcltyl/catch-the-dream.git
+npx skills add git@github.com:mcltyl/catch-the-dream-skills.git
 ```
 
 ### Claude Code / Codex CLI
 ```bash
-git clone https://github.com/mcltyl/catch-the-dream.git ~/.claude/skills/catch-the-dream
+git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.claude/skills/catch-the-dream
 ```
 
 ### OpenClaw
 ```bash
-git clone https://github.com/mcltyl/catch-the-dream.git ~/.openclaw/skills/catch-the-dream
+git clone https://github.com/mcltyl/catch-the-dream-skills.git ~/.openclaw/skills/catch-the-dream
 ```
 
 ---
